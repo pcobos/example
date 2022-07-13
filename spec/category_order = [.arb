@@ -1,0 +1,134 @@
+category_order = [
+  {
+    key: "usage"
+    children: [
+      {
+        key: "websites"
+      },
+      {
+        key: "applications"
+      },
+      {
+        key: "softwares"
+      },
+      {
+        key: "tech_tools"
+      },
+      {
+        key: "apis"
+      },
+    ]
+  },
+  {
+    key: "operations"
+    children: [
+      {
+        id: 10, #  Marketing & communication
+        children: [
+          {
+            key: "communications"
+          },
+          {
+            key: "events"
+          }
+        ]
+      },
+      {
+        id: 11, # Vente & Relations clients
+        children: [
+          {
+            key: "tools"
+          },
+          {
+            key: "phones"
+          }
+        ]
+      },
+      {
+        key: "downstream_deliveries"
+      }
+    ]
+  },
+  {
+    key: "support"
+    children: [
+      {
+        id: 17, # Fournitures
+        children: [
+          {
+            key: "office_furnitures",
+          }
+          {
+            key:"furniture_items"
+          }
+        ]
+      },
+      {
+        key: "supports"
+      },
+      {
+        key: "upstream_deliveries"
+      },
+      {
+        key: "products"
+      }
+    ]
+  },
+  {
+    key: "office"
+    children: [
+      {
+        key: "offices"
+      },
+      {
+        key: "wastes"
+      },
+      {
+        key: "cleanings"
+      },
+      {
+        key: "foods"
+      }
+    ]
+  },
+  {
+    key: "transport"
+    children: [
+      {
+        key: "commutes"
+      },
+      {
+        id: 24, # Déplacement pro
+        children: [
+          {
+            key: "flights"
+          },
+          {
+            key; "trains"
+          },
+          {
+            key: "vehicules"
+          },
+          {
+            key: "other_transports"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    key: "other"
+    children: [
+      {
+        key: "others"
+      },
+      {
+        key: "investments"
+      }
+    ]
+  }
+]
+
+category_order.each do |hash|
+  puts hash
+end
